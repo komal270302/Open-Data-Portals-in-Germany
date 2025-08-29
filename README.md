@@ -52,21 +52,19 @@ Then run: pip install -r requirements.txt
 3. Configure Paths: Scripts use hardcoded paths like C:\Users\Dell\Desktop\Topic_7_Web_Scraping\Topic-7_Folder. Update these to match your local setup. Ensure ChromeDriver is installed and in your PATH for Selenium (download from chromedriver.chromium.org).
 
 # How to Run
-1. Run all the 16 scripts of all states of Germany 
-
-2. Scrape and Generate Statistics: Run python All_state.py - This runs all 16 state scrapers sequentially.
+1. Scrape and Generate Statistics: Run python All_state.py - This runs all 16 state scrapers sequentially. Scraping may take time due to dynamic portals.
 Outputs: combined_statistics.json (raw data + stats).
 
-3. Convert JSON to CSV: Run python convert_json_to_csv.py
+2. Convert JSON to CSV: Run python convert_json_to_csv.py
 Outputs: open_data_portal_categories.csv
 
-4. AI Similarity Analysis: Run python AI.py - Loads data from JSON.
+3. AI Similarity Analysis: Run python AI.py - Loads data from JSON.
 Outputs: Similarity DataFrame (printed), heatmap visualization.
 
-5. Category Clustering:Run python Clustering_categories.py
+4. Category Clustering:Run python Clustering_categories.py
 Outputs: Cluster mappings (printed), 2D visualization plot, category_clusters.csv.
 
-6. Power BI Dashboards: Open Open data portal.pbit in Power BI Desktop. Ensure open_data_portal_categories.csv is available in the same directory or update the data source within Power BI.
+5. Power BI Dashboards: Open Open data portal.pbit in Power BI Desktop. Ensure open_data_portal_categories.csv is available in the same directory or update the data source within Power BI.
 
 # Results and Insights 
 1. Example Stats (from JSON/CSV): Categories like "Umwelt" (Environment) are widely used across states, while others like "Internationale Themen" are underrepresented.
