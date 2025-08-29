@@ -1,29 +1,3 @@
-# import requests
-
-# # Step 1: Get all group IDs
-# group_list_url = "https://www.daten-bw.de/ckan/api/3/action/group_list"
-# group_ids = requests.get(group_list_url).json().get("result", [])
-
-# print("Categories:\n")
-
-# # Step 2: Loop through each group and get translated name and count
-
-# for group_id in group_ids:
-    
-#     # Get group metadata including the English name
-#     group_show_url = f"https://www.daten-bw.de/ckan/api/3/action/group_show?id={group_id}"
-#     group_data = requests.get(group_show_url).json().get("result", {})
-#     title_en = group_data.get("title_translated", {}).get("en", group_data.get("display_name", group_id))
-
-#     # Use package_search to get dataset count
-#     search_url = f"https://www.daten-bw.de/ckan/api/3/action/package_search?q=groups:{group_id}"
-#     response = requests.get(search_url)
-#     if response.status_code == 200:
-#         result = response.json().get("result", {})
-#         count = result.get("count", 0)
-#         if count > 0:
-#             print(f"{title_en} ({count})")
-
 import requests
 
 headers = {
@@ -47,4 +21,5 @@ for group_id in group_ids:
     count = response["result"]["count"]
     if count > 0:
         print(f"{title_en} ({count})")
+
 
