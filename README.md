@@ -2,7 +2,7 @@
 This project automates the collection, processing, and analysis of dataset categories from the open data portals of Germany's 16 federal states. It addresses the lack of standardization in category usage across portals by scraping data, storing it in structured formats (JSON and CSV), performing statistical analysis, and applying AI-driven techniques for similarity detection and clustering. The goal is to provide insights into category frequency, distribution, over/underrepresentation, and semantic similarities, supporting better metadata standardization and policy discussions.
 This work was conducted as a research internship at TU Chemnitz (Germany).
 
-# Motivation :
+# Motivation 
 Open data portals promote transparency, innovation, and public access to government datasets. Categories (e.g., "Umwelt" for environment or "Verkehr" for transport) help users navigate datasets effectively. However, German state portals use inconsistent categories, making cross-state comparisons challenging. This project automates category extraction to enable statistical analysis (e.g., most/least used categories), Identify common categories across states and Use AI to detect semantically similar categories for potential standardization.
 
 # Features
