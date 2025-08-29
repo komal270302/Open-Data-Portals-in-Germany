@@ -1,0 +1,1300 @@
+{
+  "statistics": {
+    "createdAt": "2025-07-08T23:50:53.540904",
+    "usedSoftware": [
+      "SODMET (Semantic Open Data Metadata Extraction Tool — umbrella framework)",
+      "GovDataScraperTool (Scrapes govdata.de categories with Selenium)",
+      "ByDataScraperTool (Scrapes bydata.de scrollable category panel)",
+      "BerlinMetaParser (Parses daten.berlin.de categories with BeautifulSoup & Selenium)",
+      "CKANMetaFetcher (Fetches CKAN metadata from daten-bw.de API)",
+      "NRWCategoryExtractor (Scrapes open.nrw category data with Selenium & BS4)",
+      "RLPThemenFetcher (Extracts open.rlp.de thematic data dynamically)"
+    ],
+    "affiliate": "TU Chemnitz",
+    "datasetSources": [
+      "https://open.bydata.de/datasets?locale=de&page=1&limit=10",
+      "https://daten.berlin.de/datensaetze",
+      "https://www.govdata.de/suche?q=brandenburg",
+      "https://www.govdata.de/suche?q=bremen",
+      "https://www.daten-bw.de/ckan/api/3/action/group_list",
+      "https://www.govdata.de/suche?q=Hamburg&sort=relevance_desc&type=all",
+      "https://www.govdata.de/suche?q=hessen",
+      "https://www.govdata.de/suche?q=lower+saxony",
+      "https://www.govdata.de/suche?q=Mecklenburg-Vorpommern",
+      "https://open.nrw/suche?volltext=&page=1",
+      "https://open.rlp.de/de/suchergebnisse",
+      "https://www.govdata.de/suche?q=saarland&sort=relevance_desc&type=all",
+      "https://www.govdata.de/suche?q=Saxony-Anhalt",
+      "https://www.govdata.de/suche?q=Sachsen",
+      "https://www.govdata.de/suche?q=Schleswig-Holstein",
+      "https://www.govdata.de/suche?q=thuringia&sort=relevance_desc&type=all"
+    ],
+    "category_usage_counts": {
+      "Umwelt": 15,
+      "Wirtschaft und Finanzen": 12,
+      "Bildung, Kultur und Sport": 12,
+      "Bevölkerung und Gesellschaft": 12,
+      "Wissenschaft und Technologie": 15,
+      "Verkehr": 13,
+      "Regionen und Städte": 15,
+      "Regierung und öffentlicher Sektor": 13,
+      "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel": 13,
+      "Energie": 12,
+      "Gesundheit": 13,
+      "Justiz, Rechtssystem und öffentliche Sicherheit": 12,
+      "Geographie und Stadtplanung": 1,
+      "Sozialleistungen": 1,
+      "Ver- und Entsorgung": 1,
+      "Demographie": 1,
+      "Öffentliche Verwaltung, Haushalt und Steuern": 1,
+      "Wirtschaft": 1,
+      "Wahlen": 1,
+      "Bildung": 1,
+      "Mobilität / Verkehr": 1,
+      "Internationale Themen": 4
+    },
+    "most_used_categories (≥13)": {
+      "Umwelt": 15,
+      "Wissenschaft und Technologie": 15,
+      "Verkehr": 13,
+      "Regionen und Städte": 15,
+      "Regierung und öffentlicher Sektor": 13,
+      "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel": 13,
+      "Gesundheit": 13
+    },
+    "least_used_categories (≤2)": {
+      "Geographie und Stadtplanung": 1,
+      "Sozialleistungen": 1,
+      "Ver- und Entsorgung": 1,
+      "Demographie": 1,
+      "Öffentliche Verwaltung, Haushalt und Steuern": 1,
+      "Wirtschaft": 1,
+      "Wahlen": 1,
+      "Bildung": 1,
+      "Mobilität / Verkehr": 1
+    },
+    "common_categories": [],
+    "category_distribution_by_state": {
+      "Energie": {
+        "count": 12,
+        "present_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein"
+        ],
+        "missing_In": [
+          "Berlin",
+          "Lower Saxony(Niedersachsen)",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Wahlen": {
+        "count": 1,
+        "present_In": [
+          "Berlin"
+        ],
+        "missing_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Internationale Themen": {
+        "count": 4,
+        "present_In": [
+          "Hamburg",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Schleswig-Holstein"
+        ],
+        "missing_In": [
+          "Bavaria (Bayern)",
+          "Berlin",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Regionen und Städte": {
+        "count": 15,
+        "present_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein",
+          "Thuringia(Thüringen)"
+        ],
+        "missing_In": [
+          "Berlin"
+        ]
+      },
+      "Bevölkerung und Gesellschaft": {
+        "count": 12,
+        "present_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein"
+        ],
+        "missing_In": [
+          "Berlin",
+          "Lower Saxony(Niedersachsen)",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Demographie": {
+        "count": 1,
+        "present_In": [
+          "Berlin"
+        ],
+        "missing_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Justiz, Rechtssystem und öffentliche Sicherheit": {
+        "count": 12,
+        "present_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein"
+        ],
+        "missing_In": [
+          "Berlin",
+          "Lower Saxony(Niedersachsen)",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Regierung und öffentlicher Sektor": {
+        "count": 13,
+        "present_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein"
+        ],
+        "missing_In": [
+          "Berlin",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Umwelt": {
+        "count": 15,
+        "present_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein",
+          "Thuringia(Thüringen)"
+        ],
+        "missing_In": [
+          "Berlin"
+        ]
+      },
+      "Gesundheit": {
+        "count": 13,
+        "present_In": [
+          "Bavaria (Bayern)",
+          "Berlin",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein"
+        ],
+        "missing_In": [
+          "Lower Saxony(Niedersachsen)",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Bildung, Kultur und Sport": {
+        "count": 12,
+        "present_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein"
+        ],
+        "missing_In": [
+          "Berlin",
+          "Lower Saxony(Niedersachsen)",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Sozialleistungen": {
+        "count": 1,
+        "present_In": [
+          "Berlin"
+        ],
+        "missing_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Ver- und Entsorgung": {
+        "count": 1,
+        "present_In": [
+          "Berlin"
+        ],
+        "missing_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Wissenschaft und Technologie": {
+        "count": 15,
+        "present_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein",
+          "Thuringia(Thüringen)"
+        ],
+        "missing_In": [
+          "Berlin"
+        ]
+      },
+      "Öffentliche Verwaltung, Haushalt und Steuern": {
+        "count": 1,
+        "present_In": [
+          "Berlin"
+        ],
+        "missing_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel": {
+        "count": 13,
+        "present_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein"
+        ],
+        "missing_In": [
+          "Berlin",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Verkehr": {
+        "count": 13,
+        "present_In": [
+          "Bavaria (Bayern)",
+          "Berlin",
+          "Brandenburg",
+          "Bremen",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein"
+        ],
+        "missing_In": [
+          "Baden-Württemberg",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Geographie und Stadtplanung": {
+        "count": 1,
+        "present_In": [
+          "Berlin"
+        ],
+        "missing_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Wirtschaft": {
+        "count": 1,
+        "present_In": [
+          "Berlin"
+        ],
+        "missing_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Mobilität / Verkehr": {
+        "count": 1,
+        "present_In": [
+          "Baden-Württemberg"
+        ],
+        "missing_In": [
+          "Bavaria (Bayern)",
+          "Berlin",
+          "Brandenburg",
+          "Bremen",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Wirtschaft und Finanzen": {
+        "count": 12,
+        "present_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein"
+        ],
+        "missing_In": [
+          "Berlin",
+          "Lower Saxony(Niedersachsen)",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Thuringia(Thüringen)"
+        ]
+      },
+      "Bildung": {
+        "count": 1,
+        "present_In": [
+          "Berlin"
+        ],
+        "missing_In": [
+          "Bavaria (Bayern)",
+          "Brandenburg",
+          "Bremen",
+          "Baden-Württemberg",
+          "Hamburg",
+          "Hesse(Hessen)",
+          "Lower Saxony(Niedersachsen)",
+          "Mecklenburg-Western Pomerania",
+          "North Rhine-Westphalia(Nordrhein-Westfalen)",
+          "Rhineland-Palatinate(Rheinland-Pfalz)",
+          "Saarland",
+          "Saxony-Anhalt(Sachsen-Anhalt)",
+          "Saxony(Sachsen)",
+          "Schleswig-Holstein",
+          "Thuringia(Thüringen)"
+        ]
+      }
+    }
+  },
+  "States_categories": {
+    "Bavaria (Bayern)": [
+      {
+        "category": "Umwelt",
+        "datasetCount": 6979
+      },
+      {
+        "category": "Wirtschaft und Finanzen",
+        "datasetCount": 6880
+      },
+      {
+        "category": "Bildung, Kultur und Sport",
+        "datasetCount": 3864
+      },
+      {
+        "category": "Bevölkerung und Gesellschaft",
+        "datasetCount": 3420
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 2705
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 1684
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 635
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 600
+      },
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 141
+      },
+      {
+        "category": "Energie",
+        "datasetCount": 128
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 17
+      },
+      {
+        "category": "Justiz, Rechtssystem und öffentliche Sicherheit",
+        "datasetCount": 12
+      }
+    ],
+    "Berlin": [
+      {
+        "category": "Geographie und Stadtplanung",
+        "datasetCount": 1662
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 537
+      },
+      {
+        "category": "Sozialleistungen",
+        "datasetCount": 508
+      },
+      {
+        "category": "Ver- und Entsorgung",
+        "datasetCount": 347
+      },
+      {
+        "category": "Demographie",
+        "datasetCount": 116
+      },
+      {
+        "category": "Öffentliche Verwaltung, Haushalt und Steuern",
+        "datasetCount": 94
+      },
+      {
+        "category": "Wirtschaft",
+        "datasetCount": 63
+      },
+      {
+        "category": "Wahlen",
+        "datasetCount": 36
+      },
+      {
+        "category": "Bildung",
+        "datasetCount": 31
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 25
+      }
+    ],
+    "Brandenburg": [
+      {
+        "category": "Bevölkerung und Gesellschaft",
+        "datasetCount": 426
+      },
+      {
+        "category": "Bildung, Kultur und Sport",
+        "datasetCount": 162
+      },
+      {
+        "category": "Energie",
+        "datasetCount": 38
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 53
+      },
+      {
+        "category": "Justiz, Rechtssystem und öffentliche Sicherheit",
+        "datasetCount": 36
+      },
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 9197
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 9513
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 9561
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 9631
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 178
+      },
+      {
+        "category": "Wirtschaft und Finanzen",
+        "datasetCount": 644
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 9495
+      }
+    ],
+    "Bremen": [
+      {
+        "category": "Bevölkerung und Gesellschaft",
+        "datasetCount": 324
+      },
+      {
+        "category": "Bildung, Kultur und Sport",
+        "datasetCount": 161
+      },
+      {
+        "category": "Energie",
+        "datasetCount": 4
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 51
+      },
+      {
+        "category": "Justiz, Rechtssystem und öffentliche Sicherheit",
+        "datasetCount": 53
+      },
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 27
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 259
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 171
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 390
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 133
+      },
+      {
+        "category": "Wirtschaft und Finanzen",
+        "datasetCount": 507
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 140
+      }
+    ],
+    "Baden-Württemberg": [
+      {
+        "category": "Bevölkerung und Gesellschaft",
+        "datasetCount": 139
+      },
+      {
+        "category": "Bildung, Kultur und Sport",
+        "datasetCount": 52
+      },
+      {
+        "category": "Energie",
+        "datasetCount": 4
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 6
+      },
+      {
+        "category": "Justiz, Rechtssystem und öffentliche Sicherheit",
+        "datasetCount": 2
+      },
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 81
+      },
+      {
+        "category": "Mobilität / Verkehr",
+        "datasetCount": 88
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 955
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 945
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 195
+      },
+      {
+        "category": "Wirtschaft und Finanzen",
+        "datasetCount": 25
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 86
+      }
+    ],
+    "Hamburg": [
+      {
+        "category": "Bevölkerung und Gesellschaft",
+        "datasetCount": 11651
+      },
+      {
+        "category": "Bildung, Kultur und Sport",
+        "datasetCount": 2981
+      },
+      {
+        "category": "Energie",
+        "datasetCount": 175
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 116
+      },
+      {
+        "category": "Internationale Themen",
+        "datasetCount": 214
+      },
+      {
+        "category": "Justiz, Rechtssystem und öffentliche Sicherheit",
+        "datasetCount": 54
+      },
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 2873
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 313
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 3581
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 939
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 1365
+      },
+      {
+        "category": "Wirtschaft und Finanzen",
+        "datasetCount": 5356
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 140
+      }
+    ],
+    "Hesse(Hessen)": [
+      {
+        "category": "Bevölkerung und Gesellschaft",
+        "datasetCount": 280
+      },
+      {
+        "category": "Bildung, Kultur und Sport",
+        "datasetCount": 151
+      },
+      {
+        "category": "Energie",
+        "datasetCount": 8
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 30
+      },
+      {
+        "category": "Justiz, Rechtssystem und öffentliche Sicherheit",
+        "datasetCount": 37
+      },
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 29
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 119
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 80
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 102
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 56
+      },
+      {
+        "category": "Wirtschaft und Finanzen",
+        "datasetCount": 365
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 115
+      }
+    ],
+    "Lower Saxony(Niedersachsen)": [
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 136
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 1
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 115
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 163
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 150
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 11
+      }
+    ],
+    "Mecklenburg-Western Pomerania": [
+      {
+        "category": "Bevölkerung und Gesellschaft",
+        "datasetCount": 301
+      },
+      {
+        "category": "Bildung, Kultur und Sport",
+        "datasetCount": 146
+      },
+      {
+        "category": "Energie",
+        "datasetCount": 15
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 31
+      },
+      {
+        "category": "Justiz, Rechtssystem und öffentliche Sicherheit",
+        "datasetCount": 38
+      },
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 15
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 130
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 80
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 94
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 70
+      },
+      {
+        "category": "Wirtschaft und Finanzen",
+        "datasetCount": 447
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 96
+      }
+    ],
+    "North Rhine-Westphalia(Nordrhein-Westfalen)": [
+      {
+        "category": "Bevölkerung und Gesellschaft",
+        "datasetCount": 2575
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 2535
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 1719
+      },
+      {
+        "category": "Wirtschaft und Finanzen",
+        "datasetCount": 1438
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 1236
+      },
+      {
+        "category": "Bildung, Kultur und Sport",
+        "datasetCount": 1069
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 1044
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 667
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 575
+      },
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 280
+      },
+      {
+        "category": "Energie",
+        "datasetCount": 191
+      },
+      {
+        "category": "Justiz, Rechtssystem und öffentliche Sicherheit",
+        "datasetCount": 94
+      },
+      {
+        "category": "Internationale Themen",
+        "datasetCount": 7
+      }
+    ],
+    "Rhineland-Palatinate(Rheinland-Pfalz)": [
+      {
+        "category": "Wirtschaft und Finanzen",
+        "datasetCount": 17089
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 15743
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 3337
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 2751
+      },
+      {
+        "category": "Bevölkerung und Gesellschaft",
+        "datasetCount": 2370
+      },
+      {
+        "category": "Bildung, Kultur und Sport",
+        "datasetCount": 2152
+      },
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 2124
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 1472
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 1407
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 1180
+      },
+      {
+        "category": "Justiz, Rechtssystem und öffentliche Sicherheit",
+        "datasetCount": 908
+      },
+      {
+        "category": "Internationale Themen",
+        "datasetCount": 781
+      },
+      {
+        "category": "Energie",
+        "datasetCount": 737
+      }
+    ],
+    "Saarland": [
+      {
+        "category": "Bevölkerung und Gesellschaft",
+        "datasetCount": 277
+      },
+      {
+        "category": "Bildung, Kultur und Sport",
+        "datasetCount": 145
+      },
+      {
+        "category": "Energie",
+        "datasetCount": 52
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 30
+      },
+      {
+        "category": "Justiz, Rechtssystem und öffentliche Sicherheit",
+        "datasetCount": 34
+      },
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 10
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 223
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 204
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 225
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 78
+      },
+      {
+        "category": "Wirtschaft und Finanzen",
+        "datasetCount": 437
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 177
+      }
+    ],
+    "Saxony-Anhalt(Sachsen-Anhalt)": [
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 1
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 1
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 1
+      }
+    ],
+    "Saxony(Sachsen)": [
+      {
+        "category": "Bevölkerung und Gesellschaft",
+        "datasetCount": 643
+      },
+      {
+        "category": "Bildung, Kultur und Sport",
+        "datasetCount": 241
+      },
+      {
+        "category": "Energie",
+        "datasetCount": 38
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 160
+      },
+      {
+        "category": "Justiz, Rechtssystem und öffentliche Sicherheit",
+        "datasetCount": 87
+      },
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 475
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 816
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 789
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 1346
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 530
+      },
+      {
+        "category": "Wirtschaft und Finanzen",
+        "datasetCount": 1376
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 538
+      }
+    ],
+    "Schleswig-Holstein": [
+      {
+        "category": "Bevölkerung und Gesellschaft",
+        "datasetCount": 11956
+      },
+      {
+        "category": "Bildung, Kultur und Sport",
+        "datasetCount": 1387
+      },
+      {
+        "category": "Energie",
+        "datasetCount": 278
+      },
+      {
+        "category": "Gesundheit",
+        "datasetCount": 1650
+      },
+      {
+        "category": "Internationale Themen",
+        "datasetCount": 257
+      },
+      {
+        "category": "Justiz, Rechtssystem und öffentliche Sicherheit",
+        "datasetCount": 172
+      },
+      {
+        "category": "Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",
+        "datasetCount": 3879
+      },
+      {
+        "category": "Regierung und öffentlicher Sektor",
+        "datasetCount": 586
+      },
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 1609
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 3550
+      },
+      {
+        "category": "Verkehr",
+        "datasetCount": 2802
+      },
+      {
+        "category": "Wirtschaft und Finanzen",
+        "datasetCount": 5293
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 1173
+      }
+    ],
+    "Thuringia(Thüringen)": [
+      {
+        "category": "Regionen und Städte",
+        "datasetCount": 1
+      },
+      {
+        "category": "Umwelt",
+        "datasetCount": 1
+      },
+      {
+        "category": "Wissenschaft und Technologie",
+        "datasetCount": 1
+      }
+    ]
+  }
+}

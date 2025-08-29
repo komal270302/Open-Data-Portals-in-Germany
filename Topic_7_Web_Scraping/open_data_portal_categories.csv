@@ -1,0 +1,171 @@
+State,Category,Dataset_Count
+Bavaria (Bayern),Umwelt,6979
+Bavaria (Bayern),Wirtschaft und Finanzen,6880
+Bavaria (Bayern),"Bildung, Kultur und Sport",3864
+Bavaria (Bayern),Bevölkerung und Gesellschaft,3420
+Bavaria (Bayern),Wissenschaft und Technologie,2705
+Bavaria (Bayern),Verkehr,1684
+Bavaria (Bayern),Regionen und Städte,635
+Bavaria (Bayern),Regierung und öffentlicher Sektor,600
+Bavaria (Bayern),"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",141
+Bavaria (Bayern),Energie,128
+Bavaria (Bayern),Gesundheit,17
+Bavaria (Bayern),"Justiz, Rechtssystem und öffentliche Sicherheit",12
+Berlin,Geographie und Stadtplanung,1662
+Berlin,Gesundheit,537
+Berlin,Sozialleistungen,508
+Berlin,Ver- und Entsorgung,347
+Berlin,Demographie,116
+Berlin,"Öffentliche Verwaltung, Haushalt und Steuern",94
+Berlin,Wirtschaft,63
+Berlin,Wahlen,36
+Berlin,Bildung,31
+Berlin,Verkehr,25
+Brandenburg,Bevölkerung und Gesellschaft,426
+Brandenburg,"Bildung, Kultur und Sport",162
+Brandenburg,Energie,38
+Brandenburg,Gesundheit,53
+Brandenburg,"Justiz, Rechtssystem und öffentliche Sicherheit",36
+Brandenburg,"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",9197
+Brandenburg,Regierung und öffentlicher Sektor,9513
+Brandenburg,Regionen und Städte,9561
+Brandenburg,Umwelt,9631
+Brandenburg,Verkehr,178
+Brandenburg,Wirtschaft und Finanzen,644
+Brandenburg,Wissenschaft und Technologie,9495
+Bremen,Bevölkerung und Gesellschaft,324
+Bremen,"Bildung, Kultur und Sport",161
+Bremen,Energie,4
+Bremen,Gesundheit,51
+Bremen,"Justiz, Rechtssystem und öffentliche Sicherheit",53
+Bremen,"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",27
+Bremen,Regierung und öffentlicher Sektor,259
+Bremen,Regionen und Städte,171
+Bremen,Umwelt,390
+Bremen,Verkehr,133
+Bremen,Wirtschaft und Finanzen,507
+Bremen,Wissenschaft und Technologie,140
+Baden-Württemberg,Bevölkerung und Gesellschaft,139
+Baden-Württemberg,"Bildung, Kultur und Sport",52
+Baden-Württemberg,Energie,4
+Baden-Württemberg,Gesundheit,6
+Baden-Württemberg,"Justiz, Rechtssystem und öffentliche Sicherheit",2
+Baden-Württemberg,"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",81
+Baden-Württemberg,Mobilität / Verkehr,88
+Baden-Württemberg,Regierung und öffentlicher Sektor,955
+Baden-Württemberg,Regionen und Städte,945
+Baden-Württemberg,Umwelt,195
+Baden-Württemberg,Wirtschaft und Finanzen,25
+Baden-Württemberg,Wissenschaft und Technologie,86
+Hamburg,Bevölkerung und Gesellschaft,11651
+Hamburg,"Bildung, Kultur und Sport",2981
+Hamburg,Energie,175
+Hamburg,Gesundheit,116
+Hamburg,Internationale Themen,214
+Hamburg,"Justiz, Rechtssystem und öffentliche Sicherheit",54
+Hamburg,"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",2873
+Hamburg,Regierung und öffentlicher Sektor,313
+Hamburg,Regionen und Städte,3581
+Hamburg,Umwelt,939
+Hamburg,Verkehr,1365
+Hamburg,Wirtschaft und Finanzen,5356
+Hamburg,Wissenschaft und Technologie,140
+Hesse(Hessen),Bevölkerung und Gesellschaft,280
+Hesse(Hessen),"Bildung, Kultur und Sport",151
+Hesse(Hessen),Energie,8
+Hesse(Hessen),Gesundheit,30
+Hesse(Hessen),"Justiz, Rechtssystem und öffentliche Sicherheit",37
+Hesse(Hessen),"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",29
+Hesse(Hessen),Regierung und öffentlicher Sektor,119
+Hesse(Hessen),Regionen und Städte,80
+Hesse(Hessen),Umwelt,102
+Hesse(Hessen),Verkehr,56
+Hesse(Hessen),Wirtschaft und Finanzen,365
+Hesse(Hessen),Wissenschaft und Technologie,115
+Lower Saxony(Niedersachsen),"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",136
+Lower Saxony(Niedersachsen),Regierung und öffentlicher Sektor,1
+Lower Saxony(Niedersachsen),Regionen und Städte,115
+Lower Saxony(Niedersachsen),Umwelt,163
+Lower Saxony(Niedersachsen),Verkehr,150
+Lower Saxony(Niedersachsen),Wissenschaft und Technologie,11
+Mecklenburg-Western Pomerania,Bevölkerung und Gesellschaft,301
+Mecklenburg-Western Pomerania,"Bildung, Kultur und Sport",146
+Mecklenburg-Western Pomerania,Energie,15
+Mecklenburg-Western Pomerania,Gesundheit,31
+Mecklenburg-Western Pomerania,"Justiz, Rechtssystem und öffentliche Sicherheit",38
+Mecklenburg-Western Pomerania,"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",15
+Mecklenburg-Western Pomerania,Regierung und öffentlicher Sektor,130
+Mecklenburg-Western Pomerania,Regionen und Städte,80
+Mecklenburg-Western Pomerania,Umwelt,94
+Mecklenburg-Western Pomerania,Verkehr,70
+Mecklenburg-Western Pomerania,Wirtschaft und Finanzen,447
+Mecklenburg-Western Pomerania,Wissenschaft und Technologie,96
+North Rhine-Westphalia(Nordrhein-Westfalen),Bevölkerung und Gesellschaft,2575
+North Rhine-Westphalia(Nordrhein-Westfalen),Regierung und öffentlicher Sektor,2535
+North Rhine-Westphalia(Nordrhein-Westfalen),Regionen und Städte,1719
+North Rhine-Westphalia(Nordrhein-Westfalen),Wirtschaft und Finanzen,1438
+North Rhine-Westphalia(Nordrhein-Westfalen),Umwelt,1236
+North Rhine-Westphalia(Nordrhein-Westfalen),"Bildung, Kultur und Sport",1069
+North Rhine-Westphalia(Nordrhein-Westfalen),Verkehr,1044
+North Rhine-Westphalia(Nordrhein-Westfalen),Wissenschaft und Technologie,667
+North Rhine-Westphalia(Nordrhein-Westfalen),Gesundheit,575
+North Rhine-Westphalia(Nordrhein-Westfalen),"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",280
+North Rhine-Westphalia(Nordrhein-Westfalen),Energie,191
+North Rhine-Westphalia(Nordrhein-Westfalen),"Justiz, Rechtssystem und öffentliche Sicherheit",94
+North Rhine-Westphalia(Nordrhein-Westfalen),Internationale Themen,7
+Rhineland-Palatinate(Rheinland-Pfalz),Wirtschaft und Finanzen,17089
+Rhineland-Palatinate(Rheinland-Pfalz),Umwelt,15743
+Rhineland-Palatinate(Rheinland-Pfalz),Regierung und öffentlicher Sektor,3337
+Rhineland-Palatinate(Rheinland-Pfalz),Regionen und Städte,2751
+Rhineland-Palatinate(Rheinland-Pfalz),Bevölkerung und Gesellschaft,2370
+Rhineland-Palatinate(Rheinland-Pfalz),"Bildung, Kultur und Sport",2152
+Rhineland-Palatinate(Rheinland-Pfalz),"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",2124
+Rhineland-Palatinate(Rheinland-Pfalz),Wissenschaft und Technologie,1472
+Rhineland-Palatinate(Rheinland-Pfalz),Verkehr,1407
+Rhineland-Palatinate(Rheinland-Pfalz),Gesundheit,1180
+Rhineland-Palatinate(Rheinland-Pfalz),"Justiz, Rechtssystem und öffentliche Sicherheit",908
+Rhineland-Palatinate(Rheinland-Pfalz),Internationale Themen,781
+Rhineland-Palatinate(Rheinland-Pfalz),Energie,737
+Saarland,Bevölkerung und Gesellschaft,277
+Saarland,"Bildung, Kultur und Sport",145
+Saarland,Energie,52
+Saarland,Gesundheit,30
+Saarland,"Justiz, Rechtssystem und öffentliche Sicherheit",34
+Saarland,"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",10
+Saarland,Regierung und öffentlicher Sektor,223
+Saarland,Regionen und Städte,204
+Saarland,Umwelt,225
+Saarland,Verkehr,78
+Saarland,Wirtschaft und Finanzen,437
+Saarland,Wissenschaft und Technologie,177
+Saxony-Anhalt(Sachsen-Anhalt),Regionen und Städte,1
+Saxony-Anhalt(Sachsen-Anhalt),Umwelt,1
+Saxony-Anhalt(Sachsen-Anhalt),Wissenschaft und Technologie,1
+Saxony(Sachsen),Bevölkerung und Gesellschaft,643
+Saxony(Sachsen),"Bildung, Kultur und Sport",241
+Saxony(Sachsen),Energie,38
+Saxony(Sachsen),Gesundheit,160
+Saxony(Sachsen),"Justiz, Rechtssystem und öffentliche Sicherheit",87
+Saxony(Sachsen),"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",475
+Saxony(Sachsen),Regierung und öffentlicher Sektor,816
+Saxony(Sachsen),Regionen und Städte,789
+Saxony(Sachsen),Umwelt,1346
+Saxony(Sachsen),Verkehr,530
+Saxony(Sachsen),Wirtschaft und Finanzen,1376
+Saxony(Sachsen),Wissenschaft und Technologie,538
+Schleswig-Holstein,Bevölkerung und Gesellschaft,11956
+Schleswig-Holstein,"Bildung, Kultur und Sport",1387
+Schleswig-Holstein,Energie,278
+Schleswig-Holstein,Gesundheit,1650
+Schleswig-Holstein,Internationale Themen,257
+Schleswig-Holstein,"Justiz, Rechtssystem und öffentliche Sicherheit",172
+Schleswig-Holstein,"Landwirtschaft, Fischerei, Forstwirtschaft und Nahrungsmittel",3879
+Schleswig-Holstein,Regierung und öffentlicher Sektor,586
+Schleswig-Holstein,Regionen und Städte,1609
+Schleswig-Holstein,Umwelt,3550
+Schleswig-Holstein,Verkehr,2802
+Schleswig-Holstein,Wirtschaft und Finanzen,5293
+Schleswig-Holstein,Wissenschaft und Technologie,1173
+Thuringia(Thüringen),Regionen und Städte,1
+Thuringia(Thüringen),Umwelt,1
+Thuringia(Thüringen),Wissenschaft und Technologie,1
