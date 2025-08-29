@@ -7,7 +7,6 @@ import seaborn as sns
 import pandas as pd
 
 # 1. Load categories from JSON file
-# -----------------------
 with open(r"C:\Users\Dell\Desktop\Topic_7_Web_Scraping\Topic-7_Folder\combined_statistics.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
@@ -58,4 +57,5 @@ plt.show()
 
 
 df = pd.DataFrame({'Category': categories, 'Cluster': cluster_labels})
+
 df.to_csv('category_clusters.csv', index=False)
