@@ -7,8 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.cluster import AgglomerativeClustering
 
-# 1. Load categories from JSON file
-# -----------------------
+# Load categories from JSON file
 with open(r"C:\Users\Dell\Desktop\Topic_7_Web_Scraping\Topic-7_Folder\combined_statistics.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
@@ -54,5 +53,6 @@ plt.figure(figsize=(12, 10))
 sns.heatmap(sim_df, cmap="YlGnBu", linewidths=0.5)
 plt.title("Category Similarity Heatmap (cosine similarity)")
 plt.show()
+
 
 
