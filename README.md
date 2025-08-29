@@ -1,5 +1,5 @@
-----------------------------------------Automated Category Extraction from German Open Data Portals-------------------------------------------------------------------
-## Overview : 
+### Automated Category Extraction from German Open Data Portals
+## Overview
 This project automates the collection, processing, and analysis of dataset categories from the open data portals of Germany's 16 federal states. It addresses the lack of standardization in category usage across portals by scraping data, storing it in structured formats (JSON and CSV), performing statistical analysis, and applying AI-driven techniques for similarity detection and clustering. The goal is to provide insights into category frequency, distribution, over/underrepresentation, and semantic similarities, supporting better metadata standardization and policy discussions.
 This work was conducted as a research internship at TU Chemnitz (Germany).
 
@@ -34,8 +34,8 @@ Open data portals promote transparency, innovation, and public access to governm
 9. Open data portal.pbit: Power BI template file containing interactive dashboards for visualizing category distributions, usage statistics, and other key metrics derived from open_data_portal_categories.csv.
 
 # Setup and Installation
-1. Clone the Repository: git clone <your-repo-url>
-                         cd <Open-Data-Portals-in-Germany->
+1. Clone the Repository: git clone https://github.com/komal270302/Open-Data-Portals-in-Germany.git
+                         cd Open-Data-Portals-in-Germany
 
 2. Install Dependencies: Create a requirements.txt file with the following (or install manually):
    selenium
@@ -50,21 +50,18 @@ Open data portals promote transparency, innovation, and public access to governm
 
 Then run: pip install -r requirements.txt
 
-3. Configure Paths: Scripts use hardcoded paths like C:\Users\Dell\Desktop\Topic_7_Web_Scraping\Topic-7_Folder. Update these to match your local setup.
-Ensure ChromeDriver is installed and in your PATH for Selenium (download from chromedriver.chromium.org).
+3. Configure Paths: Scripts use hardcoded paths like C:\Users\Dell\Desktop\Topic_7_Web_Scraping\Topic-7_Folder. Update these to match your local setup. Ensure ChromeDriver is installed and in your PATH for Selenium (download from chromedriver.chromium.org).
 
 # How to Run
 1. Run all the 16 scripts of all states of Germany 
 
-2. Scrape and Generate Statistics: Run python All_state.py
-This runs all 16 state scrapers sequentially.
+2. Scrape and Generate Statistics: Run python All_state.py - This runs all 16 state scrapers sequentially.
 Outputs: combined_statistics.json (raw data + stats).
 
 3. Convert JSON to CSV: Run python convert_json_to_csv.py
 Outputs: open_data_portal_categories.csv
 
-4. AI Similarity Analysis: Run python AI.py
-Loads data from JSON.
+4. AI Similarity Analysis: Run python AI.py - Loads data from JSON.
 Outputs: Similarity DataFrame (printed), heatmap visualization.
 
 5. Category Clustering:Run python Clustering_categories.py
@@ -72,7 +69,7 @@ Outputs: Cluster mappings (printed), 2D visualization plot, category_clusters.cs
 
 6. Power BI Dashboards: Open Open data portal.pbit in Power BI Desktop. Ensure open_data_portal_categories.csv is available in the same directory or update the data source within Power BI.
 
-# Results and Insights (Updated)
+# Results and Insights 
 1. Example Stats (from JSON/CSV): Categories like "Umwelt" (Environment) are widely used across states, while others like "Internationale Themen" are underrepresented.
 2. Similarities: AI detects pairs like "Verkehr" and "Mobilität / Verkehr" with high cosine similarity.
 3. Clusters: Categories grouped into ~8 clusters (e.g., education/sports, environment/health).
