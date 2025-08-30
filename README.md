@@ -1,4 +1,4 @@
-# Open Data Portals of Germany 
+# Category Analysis of Open Data Portals of Germany 
 
 ## Overview
 This project automates the collection, processing, and analysis of dataset categories from the open data portals of Germany's 16 federal states. It addresses the lack of standardization in category usage across portals by scraping data, storing it in structured formats (JSON and CSV), performing statistical analysis, and applying AI-driven techniques for similarity detection and clustering. The goal is to provide insights into category frequency, distribution, over/underrepresentation, and semantic similarities, supporting better metadata standardization and policy discussions.
